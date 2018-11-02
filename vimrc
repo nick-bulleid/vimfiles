@@ -131,6 +131,8 @@ let g:lightline = { 'colorscheme': 'gruvbox' }
  
 colorscheme gruvbox
 set background=dark
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
  
 "------------------------------------------------------------
 " Indentation options {{{1
@@ -161,5 +163,7 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
+
+map <C-o> :NERDTreeToggle<CR>
  
 "------------------------------------------------------------
