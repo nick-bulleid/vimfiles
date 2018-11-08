@@ -133,6 +133,12 @@ colorscheme gruvbox
 set background=dark
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+if has("gui_running")
+    if has("gui_win32")
+        set guifont=Consolas:h11:cANSI
+    endif
+endif
  
 "------------------------------------------------------------
 " Indentation options {{{1
