@@ -127,7 +127,9 @@ set pastetoggle=<F11>
 
 set noshowmode
 
-let g:lightline = { 'colorscheme': 'gruvbox' }
+if has("gui_running")
+    let g:lightline = { 'colorscheme': 'gruvbox' }
+endif
  
 colorscheme gruvbox
 set background=dark
