@@ -127,7 +127,7 @@ set pastetoggle=<F11>
 
 set noshowmode
 
-if has("gui_running")
+if &term == "xterm-256color"
     let g:lightline = { 'colorscheme': 'gruvbox' }
 endif
  
