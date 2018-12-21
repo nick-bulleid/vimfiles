@@ -6,6 +6,7 @@
 [subrepo]
 	remote = https://github.com/scrooloose/nerdtree.git
 	branch = master
-	commit = 8d005db94f8d1a214d172aeb1008d016c3d201e2
-	parent = aebfc0495893496a04383d94417b7ea1201a506f
-	cmdver = 0.3.1
+	commit = 72c3656799289d4635520c28e17f737066ce19d6
+	parent = 6426cb256ebaade30e73b7cddcdee924e6bb9e58
+	cmdver = 0.4.0
+	method = merge
