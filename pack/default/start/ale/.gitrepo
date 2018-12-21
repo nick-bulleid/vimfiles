@@ -6,6 +6,7 @@
 [subrepo]
 	remote = https://github.com/w0rp/ale.git
 	branch = master
-	commit = 4b841b55869e3ec5b02806f9b2fe962ffdca2750
-	parent = 945aa2121b54fd9755282b7e7e263a6d6c475c31
-	cmdver = 0.3.1
+	commit = 73ca1e71918a0b50b7bbcbed91857c3618ad93cc
+	parent = 74fa34f8219cab069d14896c1678e4a8ec3ea8f8
+	cmdver = 0.4.0
+	method = merge
