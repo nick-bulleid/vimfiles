@@ -96,6 +96,9 @@ set ruler
  
 " Always display the status line, even if only one window is displayed
 set laststatus=2
+
+" Always show the tab line, even if only one tab is displayed
+set showtabline=2
  
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
@@ -130,6 +133,16 @@ set noshowmode
 if &term == "xterm-256color"
     let g:lightline = { 'colorscheme': 'gruvbox' }
 endif
+
+let g:lightline.tabline={'left':[['buffers']], 'right':[['bufname']]}
+let g:lightline.component_expand={'buffers': 'lightline#bufferline#buffers'}
+let g:lightline.component_type={'buffers': 'tabsel'}
+let g:lightline.component={'bufname': 'buffers'}
+
+let g:lightline#bufferline#show_number=1
+let g:lightline#bufferline#unnamed='[No Name]'
+let g:lightline#bufferline#min_buffer_count=2
+let g:lightline#bufferline#filename_modifier=':t'
  
 colorscheme gruvbox
 set background=dark
