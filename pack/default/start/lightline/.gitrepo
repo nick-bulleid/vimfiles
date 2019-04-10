@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/itchyny/lightline.vim
 	branch = master
-	commit = 1ef44bfa50320347004be77f836e97dc4f54982e
-	parent = 74e80cc560d1cdebdead9653000cf7c746028dd7
+	commit = 83ae633be323a7fb5baf77e493232cf3358d02bf
+	parent = 705a8335d45ed27274a73211716658e07e4f06b7
 	cmdver = 0.4.0
 	method = merge
