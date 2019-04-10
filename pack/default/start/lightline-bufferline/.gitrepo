@@ -6,6 +6,7 @@
 [subrepo]
 	remote = https://github.com/mengelbrecht/lightline-bufferline.git
 	branch = master
-	commit = df868161462e87cc103ac543beacfc11f58b861f
-	parent = fb17a3049a3ef433432a944065188b60d97c58b8
-	cmdver = 0.3.1
+	commit = 3bf44e879e42cf1e64f847aa747bf07289200c5b
+	parent = 9a5e8251ec31e0acf4c60cabd15bdfb86a96f5e9
+	cmdver = 0.4.0
+	method = merge
